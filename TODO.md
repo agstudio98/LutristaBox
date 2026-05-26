@@ -1,17 +1,11 @@
-# GitHub Pages Deployment TODO for LutristaBox
+# Task Progress: Fix Blank Page Issue
 
-**Pending:**
-- [ ] Install gh-pages dependency (`pnpm add -D gh-pages`)
-- [ ] Update vite.config.ts with base '/LutristaBox/' and preview config
-- [ ] Update package.json scripts (build, preview, predeploy, deploy)
-- [ ] Update .gitignore for dist
-- [ ] Commit changes to current branch
-- [ ] Run `pnpm run deploy` to push dist to gh-pages branch
+## Plan Steps:
+- [x] Run `pnpm install` to fix pnpm store and install `three` (in progress)
+- [ ] Stop dev server (Ctrl+C)
+- [ ] Restart `pnpm dev`
+- [x] Verify page loads at http://localhost:5174/LutristaBox/
+- [ ] Test other sections (Catalog, Support)
 
-**Next Manual Steps in GitHub (https://github.com/agstudio98/LutristaBox):**
-1. Settings > Pages
-2. Source: "Deploy from a branch" → Branch: gh-pages → / (root)
-3. Save. Live at https://agstudio98.github.io/LutristaBox/
-
-**Test:** `pnpm run build && pnpm run preview`
+**Next:** Wait for install to finish, then restart server and open URL.
 
